@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginVertical="10dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Enter Event Name : "
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/txt_name"
+                android:layout_height="40dp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Enter Date : "
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/txt_date"
+                android:layout_height="40dp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:hint="DD-MM-YYYY"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Enter Time : "
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/txt_time"
+                android:layout_height="40dp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:hint="HH:MM"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Cancel"
+                android:textColor="#fff"
+                android:background="#e96262"
+                android:textStyle="bold"
+                android:layout_marginRight="30dp"
+                android:id="@+id/btn_cancel"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Submit"
+                android:textColor="#fff"
+                android:background="#5a9aed"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/btn_submit"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

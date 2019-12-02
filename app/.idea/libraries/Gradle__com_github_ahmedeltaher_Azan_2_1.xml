@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ahmedeltaher:Azan-2.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/Azan-2.1.aar/4cb2d0053bf3dc04343214bd3bdae5db/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/Azan-2.1.aar/4cb2d0053bf3dc04343214bd3bdae5db/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ahmedeltaher/Azan/2.1/ea04c0c12b8d69751ae94577ebc3fa0e1aa1b7b6/Azan-2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

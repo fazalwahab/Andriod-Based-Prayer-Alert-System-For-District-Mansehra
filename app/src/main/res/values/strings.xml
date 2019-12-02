@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Prayer Alert System</string>
+
+    <string name="pref_file">com.example.abbasahmednawaz.preference_file</string>
+    <string name="pref_corrdinates">com.example.abbasahmednawaz.preference_corrdinates</string>
+    <string name="pref_event">com.example.abbasahmednawaz.preference_event</string>
+
+    <string name="pref_file_info">com.example.abbasahmednawaz.preference_file</string>
+    <string name="pref_list_info">com.example.abbasahmednawaz.preference_list_info</string>
+
+    <string name="title_activity_geofence_">Map</string>
+</resources>
